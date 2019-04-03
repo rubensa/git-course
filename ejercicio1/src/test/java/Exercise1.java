@@ -10,5 +10,9 @@ public class Exercise1 {
         assertEquals(4, 2+2);
     }
 
+    @Test
+    public void multiplicaX10() {
+    	assertEquals(100, 10*10);
+    }
 
 }
