@@ -11,7 +11,7 @@ public class Exercise1 {
 
    @Test
    public void contarPalabras() {
-    	String frase = "Esta es una frase super mega chula.";
+    	String frase = "Esta es una frase super mega chula";
     	String[] palabras = frase.split(" ");
     	int npalabras = palabras.length;
     	assertEquals(7, npalabras);
