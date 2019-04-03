@@ -16,8 +16,15 @@ public class Exercise1 {
     	int npalabras = palabras.length;
     	assertEquals(7, npalabras);
     }
+
     @Test
     public void multiplicaX10() {
     	assertEquals(100, 10*10);
     }
+
+    @Test
+    public void multiplicar() {
+    	assertEquals(1000, 10*10*10);
+    }
+
 }
