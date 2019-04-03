@@ -24,9 +24,9 @@ public class Exercise1 {
 
    @Test
    public void aMayusculas() {
-    	String frase = "Esta frase.";
+    	String frase = "Esta frase";
     	String upperFrase = frase.toUpperCase();
-    	assertEquals("ESTA FRASE.", upperFrase);
+    	assertEquals("ESTA FRASE", upperFrase);
    }
 
     @Test
