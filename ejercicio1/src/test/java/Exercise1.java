@@ -16,8 +16,17 @@ public class Exercise1 {
     	int npalabras = palabras.length;
     	assertEquals(7, npalabras);
     }
-    @Test
+
+   @Test
     public void multiplicaX10() {
     	assertEquals(100, 10*10);
     }
+
+   @Test
+   public void aMayusculas() {
+    	String frase = "Esta frase.";
+    	String upperFrase = frase.toUpperCase();
+    	assertEquals("ESTA FRASE.", upperFrase);
+    }
+
 }
