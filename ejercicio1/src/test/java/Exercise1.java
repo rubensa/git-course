@@ -37,6 +37,7 @@ public class Exercise1 {
     		assertEquals(i, i);
     	}
     	assertEquals(0, i);
+
     }
 
 }
