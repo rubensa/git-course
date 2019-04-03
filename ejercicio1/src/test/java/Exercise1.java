@@ -27,6 +27,16 @@ public class Exercise1 {
     	String frase = "Esta frase.";
     	String upperFrase = frase.toUpperCase();
     	assertEquals("ESTA FRASE.", upperFrase);
+   }
+
+    @Test
+    public void cuentaAtras10() {
+    	int i = 10;
+    	assertEquals(10, i);
+    	for(i = 10; i>0; i--) {
+    		assertEquals(i, i);
+    	}
+    	assertEquals(0, i);
     }
 
 }
